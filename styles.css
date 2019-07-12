@@ -54,11 +54,12 @@ header{
   top : 85px;
   left : 500px;
 }
-a{
-  font-size: 10px;
-  padding: 7px;
-  text-decoration: none;
-  color : grey;
+.blochaut{
+  height: 50px;
+  width: 300px;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 .tailleG{
   width: 800px;
@@ -68,6 +69,12 @@ a{
 .tailleP{
   width: 600px;
   margin-left: 200px;
+}
+a{
+  font-size: 10px;
+  padding: 7px;
+  text-decoration: none;
+  color : grey;
 }
 h1{
   font-family: 'DM Serif Display', serif;
@@ -92,12 +99,23 @@ h6{
 p{
   font-size: 23px;
 }
+blockquote{
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+}
+.top{
+
+  position: absolute;
+  left: 540px;
+  top : 360px;
+}
 .harry{
   float: left;
   width: 40px;
   height: 40px;
   border-radius: 20px;
   position: relative;
+  margin-right: 5px;
 
 }
 .oz{
@@ -115,6 +133,8 @@ p{
     margin-top: -25px;
 }
 .declharry{
+  width: 40px;
+  height: 40px;
   float: left;
   position: relative;
   left: 30px;
@@ -131,6 +151,29 @@ p{
   padding: 8px;
   color :#9400D3;
   font-size: 10px;
+  float: left;
+}
+.logoBook{
+  color:#9400D3;
+  text-align: justify;
+}
+.align{
+  height: 100px;
+  width: 20px;
+}
+.rondy{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+  border-radius: 60px;
+  background-color: black;
+  color: white;
+  float: left;
+  margin-right: 5px;
+  border-bottom: 5px;
+  font-size: 50px;
+  padding: 2% 4.5%;
+
 }
 .legendphoto{
   font-family: 'Montserrat', sans-serif;
@@ -186,8 +229,10 @@ blockquote{
 
 }
 footer{
+
+  margin: auto;
   left: 180px;
-  width: 800px;
+  width: 1600px;
 }
 .txtbas{
   float: left;
@@ -209,7 +254,8 @@ footer{
   border-radius: 5px;
 }
 .fontfooter{
-  float:none;
+  float: left;
+  background-color: #F5F5DC;
   width:1000px;
   height:500px;
   position: absolute;
